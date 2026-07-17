@@ -47,8 +47,8 @@ only_detached = true
 format = '[ ](fg:prev_bg bg:black)[$hash ($tag )]($style)'
 
 [git_state]
-style = "bg:black"
-format = '([$state ($progress_current/$progress_total)])($style)'
+style = "bg:black fg:red"
+format = '[$state ($progress_current/$progress_total) ]($style)'
 
 [git_status]
 style = "bg:black"
